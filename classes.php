@@ -15,7 +15,7 @@ $numeros = range(1, 14); // Crée un tableau avec les numéros de 1 à 12
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Résultats Jeanne</title>
+    <title>Classes JDA 2023</title>
     <br>
     <br>
     <!-- Ajout des liens CSS de Bootstrap -->
