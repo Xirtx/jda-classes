@@ -58,11 +58,6 @@ $numeros = range(1, 14); // Crée un tableau avec les numéros de 1 à 12
             }
         }
         ?>
-
-        <!-- Bouton de retour à la page précédente -->
-        <div class="text-center">
-            <a href="home.html" class="btn btn-primary">Retour au formulaire</a>
-        </div>
     </div>
 
     <!-- Ajout du script JavaScript de Bootstrap (facultatif) -->
