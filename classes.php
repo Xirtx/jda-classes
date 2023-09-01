@@ -20,6 +20,18 @@ $numeros = range(1, 14); // Crée un tableau avec les numéros de 1 à 12
     <br>
     <!-- Ajout des liens CSS de Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+         <style>
+        .custom-table {
+            width: 100%;
+        }
+
+        .custom-table th,
+        .custom-table td {
+            text-align: center;
+            width: 50%; /* Largeur fixe de 50% pour chaque cellule */
+        }
+    </style>
 </head>
 <body>
     <div class="container mt-5">
@@ -48,7 +60,7 @@ $numeros = range(1, 14); // Crée un tableau avec les numéros de 1 à 12
                 if($classe=='2'){echo "<h5 >2de $numero</h5>";}
                 if($classe=='1'){echo "<h5 >1er $numero</h5>";}
                 if($classe=='T'){echo "<h5 >Tle $numero</h5>";}
-                echo "<table class='table table-bordered'>";
+                echo "<table class='table table-bordered custom-table'>";
                 echo "<thead><tr><th>Nom</th><th>Prénom</th></tr></thead>";
                 echo "<tbody>";
                 
