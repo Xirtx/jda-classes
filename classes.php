@@ -78,8 +78,10 @@ $numeros = range(1, 14); // Crée un tableau avec les numéros de 1 à 12
         ?>
     </div>
 
-
-    <p style = "font-style: italic">Créé par Trix et Roulio</p>
+    <footer class="text-center mt-5">
+        <p><em>Créé par Joe et Max</em></p>
+    </footer>
+    
     <!-- Ajout du script JavaScript de Bootstrap (facultatif) -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
