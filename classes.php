@@ -36,9 +36,9 @@ $numeros = range(1, 14); // Crée un tableau avec les numéros de 1 à 12
         // Boucle sur les classes
         foreach ($classes as $classe) {
             if($classe=='2'){echo "<strong><h2 id='seconde'>Classe : Seconde</h2></strong>";}
-            echo "<br>"
+            echo "<br>";
             if($classe=='1'){echo "<strong><h2 id='premiere'>Classe : Première</h2></strong>";}
-            echo "<br>"
+            echo "<br>";
             if($classe=='T'){echo "<strong><h2 id='terminale'>Classe : Terminale</h2></strong>";}
             foreach ($numeros as $numero) {
                 $sql = "SELECT nom, prenom FROM jda WHERE classe = '$classe-$numero'";
