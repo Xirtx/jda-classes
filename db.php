@@ -1,8 +1,8 @@
 <?php
-$servername = "localhost"; // L'adresse du serveur MySQL (généralement "localhost" en local)
+$servername = "eu-cdbr-west-03.cleardb.net"; // L'adresse du serveur MySQL (généralement "localhost" en local)
 $username = "be5f7d4ff522ca"; // Le nom d'utilisateur par défaut pour XAMPP est souvent "root"
 $password = "cd46a061"; // Laissez le mot de passe vide par défaut
-$database = "jda"; // Remplacez par le nom de votre base de données
+$database = "heroku_878af3535d076e4"; // Remplacez par le nom de votre base de données
 
 // Créer une connexion
 $conn = mysqli_connect($servername, $username, $password, $database);
