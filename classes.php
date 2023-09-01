@@ -23,7 +23,9 @@ $numeros = range(1, 14); // Crée un tableau avec les numéros de 1 à 12
 </head>
 <body>
     <div class="container mt-5">
-        <h1 class="text-center">Résultats du formulaire</h1>
+        <h1 class="text-center">Classes à JDA : année 2023</h1>
+        <br>
+        <br>
         <div class="text-center">
             <h3>Aller à :</h3>
             <a href="#seconde" class="btn btn-primary" style='scroll-behavior: smooth;'>Seconde</a>
@@ -33,9 +35,11 @@ $numeros = range(1, 14); // Crée un tableau avec les numéros de 1 à 12
         <?php
         // Boucle sur les classes
         foreach ($classes as $classe) {
-            if($classe=='2'){echo "<h2 id='seconde'>Classe : Seconde</h2>";}
-            if($classe=='1'){echo "<h2 id='premiere'>Classe : Première</h2>";}
-            if($classe=='T'){echo "<h2 id='terminale'>Classe : Terminale</h2>";}
+            if($classe=='2'){echo "<strong><h2 id='seconde'>Classe : Seconde</h2></strong>";}
+            echo "<br>"
+            if($classe=='1'){echo "<strong><h2 id='premiere'>Classe : Première</h2></strong>";}
+            echo "<br>"
+            if($classe=='T'){echo "<strong><h2 id='terminale'>Classe : Terminale</h2></strong>";}
             foreach ($numeros as $numero) {
                 $sql = "SELECT nom, prenom FROM jda WHERE classe = '$classe-$numero'";
                 $result = mysqli_query($conn, $sql);
