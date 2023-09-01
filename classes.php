@@ -31,6 +31,8 @@ $numeros = range(1, 14); // Crée un tableau avec les numéros de 1 à 12
             <a href="#seconde" class="btn btn-primary" style='scroll-behavior: smooth;'>Seconde</a>
             <a href="#premiere" class="btn btn-primary" style='scroll-behavior: smooth;'>Première</a>
             <a href="#terminale" class="btn btn-primary" style='scroll-behavior: smooth;'>Terminale</a>
+            <br>
+            <br>
         </div>
         <?php
         // Boucle sur les classes
