@@ -1,1 +1,1 @@
-web: php home.php
+web:php home.php
