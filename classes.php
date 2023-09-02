@@ -79,7 +79,7 @@ $numeros = range(1, 14); // Crée un tableau avec les numéros de 1 à 12
     </div>
 
     <footer class="text-center mt-5">
-        <p><em>Créé par Trix et Roulio</em></p>
+        <p><em>Créé par Trix et Roulio. En cas de problème, contacter : lebgjules50@gmail.com</em></p>
     </footer>
     
     <!-- Ajout du script JavaScript de Bootstrap (facultatif) -->
