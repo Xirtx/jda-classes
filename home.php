@@ -25,9 +25,9 @@
             <div class="form-group">
                 <label for="niveau">Niveau :</label>
                 <select class="form-control" id="niveau" name="niveau">
-                    <option value="seconde">Seconde</option>
-                    <option value="premiere">Première</option>
                     <option value="terminale">Terminale</option>
+                    <option value="premiere">Première</option>
+                    <option value="seconde">Seconde</option>
                 </select>
             </div>
             
