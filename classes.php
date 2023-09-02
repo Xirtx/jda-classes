@@ -3,7 +3,7 @@
 require_once('db.php');
 
 // Créer un tableau avec les classes (1, 2, T) et les numéros (1, 2, 3, ...)
-$classes = ['2', '1', 'T'];
+$classes = ['T', '1', '2'];
 $numeros = range(1, 14); // Crée un tableau avec les numéros de 1 à 12
 
 // Afficher les résultats dans les tableaux correspondants
