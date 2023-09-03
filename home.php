@@ -36,7 +36,8 @@
                 <input type="number" class="form-control" id="number" name="number" min="1" max="14" value="1" required>
             </div>
 
-            <h4>Veuillez attendre demain pour rentrer vos informations. [cause : troll abusif]</h4>
+            <button type="submit" class="btn btn-primary">Envoyer et voir les classes</button>
+            
         </form>
         <br>
         <br>
