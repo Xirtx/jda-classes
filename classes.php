@@ -35,6 +35,7 @@ $numeros = range(1, 13); // Crée un tableau avec les numéros de 1 à 12
 </head>
 <body>
     <div class="container mt-5">
+        <h1>Le site fermera ses portes le dimanche 10 septembre 2023</h1>
         <h1 class="text-center">Classes à JDA : année 2023</h1>
         <br>
         <br>
