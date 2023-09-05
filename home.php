@@ -10,6 +10,7 @@
 </head>
 <body>
     <div class="container mt-5">
+        <h1>Le site fermera ses portes le dimanche 10 septembre 2023</h1>
         <h1 class="text-center">Remplissez le formulaire pour connaître vos classes à JDA</h1>
         <form action="traitement.php" method="post">    
             <div class="form-group">
