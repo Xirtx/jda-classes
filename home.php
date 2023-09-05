@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="container mt-5">
-        <h1 class="text-center">Le site fermera ses portes le dimanche 10 septembre 2023</h1>
+        <h3 class="text-center">Le site fermera ses portes le dimanche 10 septembre 2023</h3>
         <br>
         <h1 class="text-center">Remplissez le formulaire pour connaître vos classes à JDA</h1>
         <form action="traitement.php" method="post">    
