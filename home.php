@@ -10,43 +10,7 @@
 </head>
 <body>
     <div class="container mt-5">
-        <h3 class="text-center">Le site fermera ses portes le dimanche 10 septembre 2023</h3>
-        <br>
-        <h1 class="text-center">Remplissez le formulaire pour connaître vos classes à JDA</h1>
-        <form action="traitement.php" method="post">    
-            <div class="form-group">
-                <label for="nom">Nom :</label>
-                <input type="text" class="form-control" id="nom" name="nom" required>
-            </div>
-
-            <div class="form-group">
-                <label for="prenom">Prénom :</label>
-                <input type="text" class="form-control" id="prenom" name="prenom" required>
-            </div>
-
-            <div class="form-group">
-                <label for="niveau">Niveau :</label>
-                <select class="form-control" id="niveau" name="niveau">
-                    <option value="terminale">Terminale</option>
-                    <option value="premiere">Première</option>
-                    <option value="seconde">Seconde</option>
-                </select>
-            </div>
-            
-            <div class="form-group">
-                <label for="number">Numéro :</label>
-                <input type="number" class="form-control" id="number" name="number" min="1" max="14" value="1" required>
-            </div>
-
-            <button type="submit" class="btn btn-primary">Envoyer et voir les classes</button>
-            
-        </form>
-        <br>
-        <br>
-        <!-- Bouton pour passer à la page suivante -->
-        <div class="text-left mt-3">
-            <a href="classes.php" class="btn btn-success">J'ai déjà renseigné mes informations, voir les classes directement</a>
-        </div>
+        <h3 class="text-center">Ce site est fermé.</h3>
     </div>
 
     <!-- Ajout du script JavaScript de Bootstrap (facultatif) -->
